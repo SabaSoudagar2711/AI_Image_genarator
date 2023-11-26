@@ -1,0 +1,31 @@
+
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px;
+  border-bottom: 1px solid #e6ebf4;
+}
+
+img {
+  width: 120px;
+  object-fit: contain;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  background-color: #6469ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: #5054cc;
+}
